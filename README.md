@@ -3,8 +3,10 @@
 ## Practice Tagets
 - [x] seperate styles (SASS)
 - [ ] multiple components
+- [x] api fetching
 - [ ] vue routers
 - [ ] vuex
+- [ ] vuetify
 
 ## Project setup
 ```
