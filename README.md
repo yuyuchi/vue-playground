@@ -1,5 +1,11 @@
 # vue-hello-world
 
+## Practice Tagets
+- [x] seperate styles (SASS)
+- [ ] multiple components
+- [ ] vue routers
+- [ ] vuex
+
 ## Project setup
 ```
 npm install
