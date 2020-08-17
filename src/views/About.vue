@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>This is an about page</h1>
-    <GithubUserCard username="yuyuchi" />
+    <GithubUserCard username="yuyuchi"/>
   </div>
 </template>
 
