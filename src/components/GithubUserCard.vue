@@ -7,6 +7,7 @@
       </router-link>
     </div>
       <div class="content">
+        <p>click image to show more details</p>
         <a :href="`https://github.com/${username}`" class="header">{{user.name}}</a>
         <div class="meta">
           <span class="date">Joined in {{user.created_at}}</span>
@@ -14,12 +15,6 @@
         <div class="description">
           {{user.bio}}
         </div>
-      </div>
-      <div class="extra content">
-        <a :href="`https://github.com/${username}?tab=followers`">
-          <i class="user icon"></i>
-          {{user.followers}} Friends
-        </a>
       </div>
   </div>
 </template>
@@ -46,3 +41,7 @@ export default {
   },
 };
 </script>
+
+<style scoped lang="scss">
+@import "@/styles/components/GithubUserCard";
+</style>
