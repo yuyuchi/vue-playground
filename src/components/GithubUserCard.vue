@@ -1,9 +1,11 @@
 <template>
   <h1>GitHub Profiles</h1>
-  <div class="ui card">
-  <div class="image">
+  <div>
+    <div class="image">
+      <router-link :to="{ name: 'Detail'}">
         <img :src="user.avatar_url">
-      </div>
+      </router-link>
+    </div>
       <div class="content">
         <a :href="`https://github.com/${username}`" class="header">{{user.name}}</a>
         <div class="meta">

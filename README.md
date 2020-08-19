@@ -5,7 +5,7 @@
 - [x] route level code-splitting (about.[hash].js)
 - [ ] multiple components
 - [x] api fetching
-- [ ] vue routers
+- [ ] vue routers, nested router
 - [ ] vuex
 - [ ] vuetify
 
