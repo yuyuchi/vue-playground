@@ -1,8 +1,12 @@
-import { createApp } from 'vue';
+import Vue, { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
 import store from './store';
 import './registerServiceWorker';
+
+new Vue({
+  render: (h) => h(App),
+}).$mount('#app');
 
 createApp(App)
   .use(store)
